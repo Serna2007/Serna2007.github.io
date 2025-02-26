@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hoja de Vida</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            text-align: center;
+            background-color: #4CAF50;
+            color: white;
+            padding: 20px;
+            border-radius: 10px;
+        }
+        header img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            margin-top: 10px;
+        }
+        .section {
+            background-color: white;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .section h2 {
+            color: #4CAF50;
+            border-bottom: 2px solid #4CAF50;
+            padding-bottom: 5px;
+        }
+        .section ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .section ul li {
+            margin-bottom: 10px;
+        }
+        .contact-form {
+            display: flex;
+            flex-direction: column;
+        }
+        .contact-form input, .contact-form textarea {
+            margin-bottom: 10px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .contact-form button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .contact-form button:hover {
+            background-color: #45a049;
+        }
+        .download-button {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .download-button a {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .download-button a:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Samuel Serna</h1>
+        <img src="https://via.placeholder.com/150" alt="Foto de perfil">
+    </header>
+
+    <section class="section">
+        <h2>Datos Personales</h2>
+        <ul>
+            <li><strong>Fecha de nacimiento:</strong> 13 de Agosto de 2007</li>
+            <li><strong>Ciudad y país de residencia:</strong> Bogota, Colombia</li>
+            <li><strong>Teléfono de contacto:</strong> +57 3053752995</li>
+            <li><strong>Correo electrónico:</strong> <a href="mailto:juan.perez@example.com">📧 sernasamuel2007@gmail.com</a></li>
+        </ul>
+    </section>
+
+    <section class="section">
+        <h2>Perfil Profesional</h2>
+        <p>
+            Soy estudiante de undecimo grado y mi aspiracion es estudiar derecho en la universidad nacional de colombia. Tengo habilidades en las ciencias sociales y en las humanidades y mi principal aficion es el futbol
+        </p>
+    </section>
+
+    <section class="section">
+        <h2>Educación</h2>
+        <ul>
+            <li>
+                <strong>Colegio Ekiraya</strong><br>
+                <em>Estudiante</em><br>
+                <em>2011 - 2025</em>
+            </li>
+            <li>
+                <strong>14 años de estudio</strong><br>
+                <em>Undecimo grado</em><br>
+                <em>2025</em>
+            </li>
+        </ul>
+    </section>
+
+    <section class="section">
+        <h2>Experiencia Laboral</h2>
+        <ul>
+            <li>
+                <strong>Proyecto Personal</strong><br>
+                <em>Requisito de grado</em><br>
+                <em>Agosto de 2023-presente</em><br>
+                <p>Desarrollo de proyecto personal.</p>
+            </li>
+            <li>
+                <strong>Practicante de Desarrollo</strong><br>
+                <em>Empresa ABC</em><br>
+                <em>Junio 2018 - Diciembre 2019</em><br>
+                <p>Colaboré en el desarrollo de interfaces de usuario y en la optimización de la experiencia del usuario.</p>
+            </li>
+        </ul>
+    </section>
+
+    <section class="section">
+        <h2>Habilidades</h2>
+        <ul>
+            <li><strong>Idiomas:</strong> Español (nativo), Inglés (avanzado)</li>
+            <li><strong>Tecnologías:</strong> HTML, CSS, JavaScript</li>
+            <li><strong>Habilidades personales:</strong> Trabajo en equipo, creatividad, resolución de problemas</li>
+        </ul>
+    </section>
+
+    <section class="section">
+        <h2>Contacto</h2>
+        <form class="contact-form">
+            <input type="text" placeholder="Samuel Serna" required>
+            <input type="email" placeholder="sernasamuel2007@gmail.com" required>
+            <textarea placeholder="Mensaje" rows="5" required></textarea>
+            <button type="submit">Enviar mensaje</button>
+        </form>
+    </section>
+
+    <div class="download-button">
+        <a href="#" download="HojaDeVida_JuanPerez.pdf">Descargar hoja de vida en PDF</a>
+    </div>
+
+</body>
+</html>
